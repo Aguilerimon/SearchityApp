@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    //Metodo hacia preregistro
+    //Metodo para cambiar hacia preregistro
     public void preregistro(View view) {
         Intent preregistro = new Intent(this, ActividadPreregistro.class);
         startActivity(preregistro);

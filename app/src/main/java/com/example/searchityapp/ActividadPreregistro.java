@@ -16,7 +16,7 @@ public class ActividadPreregistro extends AppCompatActivity {
 
     //Metodo hacia preregistro
     public void preregistro(View view) {
-        Intent preregistro = new Intent(this, ActividadMenuPrincipal.class);
+        Intent preregistro = new Intent(this, ActividadLogin.class);
         startActivity(preregistro);
     }
 }

@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".ActividadLogin"></activity>
         <activity
             android:name=".ActividadMenuPrincipal"
             android:label="@string/title_activity_actividad_menu_principal"
-            android:theme="@style/NoActionBar"></activity>
+            android:theme="@style/NoActionBar" />
         <activity android:name=".ActividadPreregistro" />
         <activity android:name=".MainActivity">
             <intent-filter>
