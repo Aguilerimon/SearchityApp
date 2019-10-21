@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
+        android:contentDescription="@string/boton_de_descarga"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
@@ -24,12 +25,13 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
+        android:contentDescription="@string/boton_de_subir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.666"
+        app:layout_constraintVertical_bias="0.63"
         app:srcCompat="@drawable/ic_file_upload_black_48dp" />
 
     <ImageButton
@@ -38,6 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
+        android:contentDescription="@string/boton_de_archivos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
@@ -49,10 +52,20 @@
         android:layout_width="367dp"
         android:layout_height="421dp"
         android:layout_marginTop="16dp"
+        android:contentDescription="@string/imagen_de_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.146"
         app:srcCompat="@drawable/logofinal1" />
+
+    <Button
+        android:id="@+id/idPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="irperfil"
+        android:text="Mi cuenta"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="14dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

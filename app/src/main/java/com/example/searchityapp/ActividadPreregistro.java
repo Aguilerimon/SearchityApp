@@ -14,9 +14,9 @@ public class ActividadPreregistro extends AppCompatActivity {
         setContentView(R.layout.activity_actividad_preregistro);
     }
 
-    //Metodo hacia preregistro
-    public void preregistro(View view) {
-        Intent preregistro = new Intent(this, ActividadMenuPrincipal.class);
-        startActivity(preregistro);
+    //Metodo hacia Menu prinsipak
+    public void MenuPri(View view) {
+        Intent Menupri = new Intent(this, MenuPrincipal.class);
+        startActivity(Menupri);
     }
 }

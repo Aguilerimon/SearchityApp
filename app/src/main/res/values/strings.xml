@@ -27,4 +27,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="boton_de_descarga">boton de descarga</string>
+    <string name="boton_de_archivos">boton de archivos</string>
+    <string name="boton_de_subir">boton de subir</string>
+    <string name="imagen_de_logo">imagen de logo</string>
 </resources>
